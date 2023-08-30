@@ -1,3 +1,38 @@
-.TheTitle{
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url('120HG23938-13-ID8627-900x563.jpg');
+    background-position: center top;
+    background-size:cover;
+    margin: 0;
+  }
+  .jumbotron {
+    display: flex;
     align-items: center;
-}
+    background-image: url('https://free-images.com/or/8208/mountain_edge.jpg');
+    background-size: cover;
+    color: burlywood;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
+  .pagedisc{
+    border: 1px solid #000;
+    margin: 2px;
+    text-align: center;
+    padding: 10px;
+  }
+  .row{
+    background-color: aliceblue;
+    flex:auto;
+  }
+  section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+  }
+  
+  .col-md-6 {
+    margin: 0 0 30px;
+  }
+  ul{
+    list-style-position: inside;
+  }
+  
