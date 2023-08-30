@@ -21,8 +21,9 @@ body {
     padding: 10px;
   }
   .row{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     flex:auto;
+    text-align: center;
   }
   section .row img {
     margin: 0 0 30px;
@@ -31,8 +32,16 @@ body {
   
   .col-md-6 {
     margin: 0 0 30px;
+    align-self: center;
+    text-align: center;
   }
   ul{
     list-style-position: inside;
+  }
+  .row text-center{
+    width: 1rem;
+  }
+  #mid-as{
+    background-color: aliceblue;
   }
   
