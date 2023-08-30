@@ -21,7 +21,6 @@ body {
     padding: 10px;
   }
   .row{
-    /* background-color: aliceblue; */
     flex:auto;
     text-align: center;
   }
@@ -37,9 +36,6 @@ body {
   }
   ul{
     list-style-position: inside;
-  }
-  .row text-center{
-    width: 1rem;
   }
   #mid-as{
     background-color: aliceblue;
