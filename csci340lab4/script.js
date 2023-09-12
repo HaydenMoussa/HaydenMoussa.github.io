@@ -13,8 +13,8 @@ $(document).ready(function() {
         success: function(results) {
           
           console.log(results["latitude"]);
-          var lat = results["latitude"]
-          //const {latitude, longitude} = results["latitude"]
+          console.log(results["longitude"]);
+
             $('#lat').text(results["latitude"]);
             $('#lon').text(results["longitude"]);
             marker.setLatLng([results["latitude"],results["longitude"]]);
