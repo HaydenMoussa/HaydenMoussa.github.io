@@ -1,0 +1,22 @@
+
+#mapid{
+    height: 250px;
+}
+html{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-color: azure;
+    font: fantasy;
+}
+h4{
+    font-family: "Times New Roman", Times, serif;
+}
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+}
+
