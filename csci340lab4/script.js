@@ -9,17 +9,15 @@ $(document).ready(function() {
     $('#clicker').click(function() {
       $.ajax({
         dataType: "json",
-        url: "http://api.open-notify.org/iss-now.json",
+        url: "https://api.wheretheiss.at/v1/satellites/25544",
         success: function(results) {
           
-          console.log(results["iss_position"]);
-          var lat = results["iss_position"]
-          const {latitude, longitude} = results["iss_position"]
-          console.log(latitude)
-          console.log(longitude)
-            $('#lat').text(latitude);
-            $('#lon').text(longitude);
-            marker.setLatLng([latitude,longitude]);
+          console.log(results["latitude"]);
+          var lat = results["latitude"]
+          //const {latitude, longitude} = results["latitude"]
+            $('#lat').text(results["latitude"]);
+            $('#lon').text(results["longitude"]);
+            marker.setLatLng([results["latitude"],results["longitude"]]);
           },
         error: function(xhr,status,error) {
           console.log(error);
